@@ -130,13 +130,7 @@ const WorkSpaceHeader = ({
           </PopoverTrigger>
           <PopoverContent className="w-80 bg-neutral-800 text-white border-neutral-700">
             <div className="grid gap-4">
-              <div className="space-y-2">
-                <h1 className="text-sm font-semibold">Info</h1>
-                <p className="text-xs text-neutral-400">
-                  This is just a clone of eraser, made with nextjs and
-                  tailwindcss
-                </p>
-              </div>
+             
             </div>
           </PopoverContent>
         </Popover>
