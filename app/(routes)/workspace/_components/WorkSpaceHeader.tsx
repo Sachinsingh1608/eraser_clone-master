@@ -102,10 +102,7 @@ const WorkSpaceHeader = ({
           target="_blank"
           rel="noreferrer noopener"
         >
-          <div className="rounded-sm flex text-sm items-center border border-neutral-700 hover:border-neutral-500 transition-all hover:bg-neutral-800 hover:text-white cursor-pointer px-2 py-1">
-            Give Star on GitHub
-            <Github size={16} className="ml-2" />
-          </div>
+         
         </a>
         <div
           onClick={() => onSave()}
