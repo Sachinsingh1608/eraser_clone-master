@@ -15,12 +15,62 @@ const Header = async () => {
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <a className="flex gap-2" href="#">
           <Image src={"./logo.svg"} alt="Eraser.io" width={30} height={30} />
-          <p className="text-white font-semibold">whiteboard.io</p>
+          <p className="text-white font-semibold">eraser</p>
         </a>
 
         <div className="flex flex-1 items-center justify-end md:justify-between">
           <nav aria-label="Global" className="hidden md:block">
-           
+            <ul className="flex items-center gap-6 text-sm">
+              <li>
+                <a
+                  className="text-white transition hover:text-white/75"
+                  href="#"
+                >
+                  {" "}
+                  About{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className="text-white transition hover:text-white/75"
+                  href="#"
+                >
+                  {" "}
+                  Careers{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className="text-white transition hover:text-white/75"
+                  href="#"
+                >
+                  {" "}
+                  History{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className="text-white transition hover:text-white/75"
+                  href="#"
+                >
+                  {" "}
+                  Services{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  className="text-white transition hover:text-white/75"
+                  href="#"
+                >
+                  {" "}
+                  Projects{" "}
+                </a>
+              </li>
+            </ul>
           </nav>
 
           <div className="flex items-center gap-4">
